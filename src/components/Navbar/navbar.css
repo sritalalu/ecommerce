@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Josefin+Sans:ital,wght@1,300&family=Libre+Bodoni:ital@1&family=Lobster&family=Playfair+Display:ital,wght@0,500;1,500&family=Raleway:ital@1&family=Ubuntu&display=swap');
+
+#barra{
+    background-color:  #FFD4DB;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#cart{
+    background-color: #FFD4DB;
+    border:none;
+    width: 5rem;
+    height: 5rem;
+}
+
+#logo{
+
+    background-color: #FFD4DB;
+    width: 7.5rem;
+    height: 7.5rem;
+}
