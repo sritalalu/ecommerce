@@ -1,23 +1,81 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Josefin+Sans:ital,wght@1,300&family=Libre+Bodoni:ital@1&family=Lobster&family=Playfair+Display:ital,wght@0,500;1,500&family=Raleway:ital@1&family=Ubuntu&display=swap');
 
-#barra{
-    background-color:  #FFD4DB;
+.nav-link,
+.btn_drop{
+    color: black;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
-#cart{
+.nav-edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FFD4DB;
-    border:none;
-    width: 5rem;
-    height: 5rem;
 }
 
-#logo{
+.nav-edit .btn_responsive{
+    border-radius: 5px;
+    border: 5px;
+    background-image: url(../../../public/img/icons8-menu-32.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
 
+.nav-edit p {
+    font-weight: 800;
+    width: 50px;
+    color:  red;
+}
+
+.navbar .btn_responsive {
+    background-color: palevioletred;
+    color: black;
+    border: 2px;
+}
+
+.nav-link{
+    color:black !important;
+}
+
+.invert {
+    display: flex;
+}
+
+.container-fluid ul {
+    gap: 24px;
+    margin-left: 24px;
+}
+
+.container-fluid{
+    margin: auto;
+}
+
+
+.logo_cart{
+    margin-right: 40px;
+    border: none;
     background-color: #FFD4DB;
-    width: 7.5rem;
-    height: 7.5rem;
+}
+
+.logo_nube{
+    width: 11rem;
+    height: 7rem;
+    margin-left: 15px;
+}
+
+.dropdown-menu{
+    background-color: beige;
+    font-family: 'Josefin Sans';
+    font-size: 1.2rem;
+    border-radius: 9px;
+    min-width: 7rem;
+}
+
+hr{
+    margin: .5rem;
 }

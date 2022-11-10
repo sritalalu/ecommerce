@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nombre": "Sillón",
+        "modelo": "Era un sillón a lunares, bien bonito..",
+        "precio": 35000,
+        "stock": 5,
+        "img": "lunares.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Sillón",
+        "modelo": "Azul medianoche",
+        "precio": 30000,
+        "stock": 6,
+        "img": "blue.png"
+    }
+]

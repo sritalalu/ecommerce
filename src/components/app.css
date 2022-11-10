@@ -1,1 +1,33 @@
 
+body{
+    background-image: url(../../public/img/fondos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+@media screen and (max-width: 768px) {
+    body{
+        background-size: cover;
+    }
+
+    .invert {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .navbar-collapse{
+        background-color: #FFD4DB;
+        border-radius: 10px;
+    }
+
+    .container-fluid{
+        gap: 10px;
+    }
+}
+
+.cardProducto{
+    width: 18rem;
+    margin: 4px;
+}
