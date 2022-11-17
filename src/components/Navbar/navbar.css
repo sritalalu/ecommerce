@@ -55,7 +55,6 @@
     margin: auto;
 }
 
-
 .logo_cart{
     margin-right: 40px;
     border: none;
@@ -63,7 +62,7 @@
 }
 
 .logo_nube{
-    width: 11rem;
+    width: 10rem;
     height: 7rem;
     margin-left: 15px;
 }
@@ -78,4 +77,9 @@
 
 hr{
     margin: .5rem;
+}
+
+.btn_nube{
+    border: none;
+    background-color: #FFD4DB;
 }

@@ -31,3 +31,8 @@ body{
     width: 18rem;
     margin: 4px;
 }
+
+.detailProduct{
+    max-width: 600px;
+    margin-top: 20px;
+}

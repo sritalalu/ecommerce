@@ -1,32 +1,34 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Dropdown = () => {
     return (
         
         <>
-
             <button className="navbar-toggler btn_responsive" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarNav">
-            <a className="nav-link" href="#">Inicio</a>
+                <Link className="nav-link" to="/">Inicio</Link>
+                <Link className="nav-link" to="/productos">Tienda</Link>
                 <ul className="navbar-nav">
                     <li className="nav-item">
                     <div className="dropdown">
-                        <button className="btn dropdown-toggle btn_drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </button>
+                            <button className="btn dropdown-toggle btn_drop" type="button" data-bs-toggle="dropdown" >
+                                Productos
+                            </button>
+                        
                     <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Sillones</a></li>
+                        <li><Link className="dropdown-item" to="/category/sillones">Sillones</Link></li>
                         <li><hr className="linea_div" /></li>
-                        <li><a className="dropdown-item" href="#">Sofás</a></li>
+                        <li><Link className="dropdown-item" to="/category/sofas">Sofás</Link></li>
                         <li><hr className="linea_div" /></li>
-                        <li><a className="dropdown-item" href="#">Deco</a></li>
+                        <li><Link className="dropdown-item" to="/category/decoracion">Deco</Link></li>
                     </ul>
                     </div>
                     </li>
-                    <div className="dropdown">
+                    {/*<div className="dropdown">
                         <button className="btn dropdown-toggle btn_drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Blog
                         </button>
@@ -35,7 +37,7 @@ const Dropdown = () => {
                         <li><hr className="linea_div" /></li>
                         <li><a className="dropdown-item" href="#">Nosotros</a></li>
                     </ul>
-                    </div>
+                    </div>*/}
 
                     <li className="nav-item">
                         <a className="nav-link" href="#">Contacto</a>

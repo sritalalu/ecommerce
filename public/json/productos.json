@@ -1,18 +1,166 @@
 [
     {
         "id": 1,
+        "idCategoria": "sillones",
         "nombre": "Sillón",
-        "modelo": "Era un sillón a lunares, bien bonito..",
+        "modelo": "'Era un sillón a lunares, bien bonito..'",
         "precio": 35000,
         "stock": 5,
-        "img": "lunares.png"
+        "img": "lunares.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Azul, como el azul del cielo..'", 
+        "precio": 30000,
+        "stock": 6,
+        "img": "blue.jpg"
     },
     {
         "id": 2,
-        "nombre": "Sillón",
-        "modelo": "Azul medianoche",
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'El gris que ilumina mi lugar favorito, que lindo mi sofá!!'", 
         "precio": 30000,
         "stock": 6,
-        "img": "blue.png"
+        "img": "sogris.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Negro como la noche'",
+        "precio": 35000,
+        "stock": 4,
+        "img": "siNegro.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Es mío, canté pri'",
+        "precio": 35000,
+        "stock": 6,
+        "img": "siRecortes.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Extravaganteeeee'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "extrav.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "decoracion",
+        "nombre": "Sofá",
+        "modelo": "'Jarrones hermanos'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "decoration.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'La comodidad'",
+        "precio": 35000,
+        "stock": 6,
+        "img": "siSuave.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'El gran capitán'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "soRojo.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Frutilla suave'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "siRosa.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "decoracion",
+        "nombre": "Set",
+        "modelo": "'Deco de la hermosa India'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "colorful.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Mi pequeño rosita'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "siRosaviejo.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "decoracion",
+        "nombre": "Pillows",
+        "modelo": "'Perfecta combinación'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "pillows.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Para tomar el té'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "siObero.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "decoracion",
+        "nombre": "Almohadón",
+        "modelo": "'No molestar, clarito no?'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "donot.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Relax.. sólo relax'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "siGris.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "decoracion",
+        "nombre": "Girasol",
+        "modelo": "'Rayando el sol..'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "flor.jpg"
+    },
+    {
+        "id": 1,
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'Te armo el living'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "soAlmohadones.jpg"
     }
+    
+
 ]
