@@ -1,166 +1,555 @@
 [
     {
         "id": 1,
-        "idCategoria": "sillones",
-        "nombre": "Sillón",
-        "modelo": "'Era un sillón a lunares, bien bonito..'",
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'Era un sofá a lunares..'",
         "precio": 35000,
         "stock": 5,
-        "img": "lunares.jpg"
-    },
-    {
-        "id": 1,
-        "idCategoria": "sillones",
-        "nombre": "Sillón",
-        "modelo": "'Azul, como el azul del cielo..'", 
-        "precio": 30000,
-        "stock": 6,
-        "img": "blue.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/lunares.png?alt=media&token=b4be92ba-5185-4cfe-8b70-76fa93224fc9"
     },
     {
         "id": 2,
-        "idCategoria": "sofas",
-        "nombre": "Sofá",
-        "modelo": "'El gris que ilumina mi lugar favorito, que lindo mi sofá!!'", 
-        "precio": 30000,
-        "stock": 6,
-        "img": "sogris.jpg"
-    },
-    {
-        "id": 1,
         "idCategoria": "sillones",
         "nombre": "Sillón",
-        "modelo": "'Negro como la noche'",
-        "precio": 35000,
-        "stock": 4,
-        "img": "siNegro.jpg"
+        "modelo": "'Azul, como el cielo'", 
+        "precio": 30000,
+        "stock": 6,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/azul2.png?alt=media&token=b9ed4275-e607-4d8c-a6bf-ce0a97e3bf4a"
     },
     {
-        "id": 1,
+        "id": 3,
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'El clásico gris'", 
+        "precio": 30000,
+        "stock": 6,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/clasico.png?alt=media&token=b8cbe8f9-e2f4-41d5-ad20-c247c71b8dad"
+    },
+    {
+        "id": 4,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Frutilla suave'",
+        "precio": 35000,
+        "stock": 4,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/sirosa.png?alt=media&token=76bd52f6-874b-4def-9c42-767d6fcee391"
+    },
+    {
+        "id": 5,
         "idCategoria": "sillones",
         "nombre": "Sillón",
         "modelo": "'Es mío, canté pri'",
         "precio": 35000,
         "stock": 6,
-        "img": "siRecortes.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/sirecortes.png?alt=media&token=40f906d7-1fd4-4432-ae07-b5d448c402e1"
     },
     {
-        "id": 1,
+        "id": 6,
         "idCategoria": "sillones",
         "nombre": "Sillón",
         "modelo": "'Extravaganteeeee'",
         "precio": 35000,
         "stock": 5,
-        "img": "extrav.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/extra.png?alt=media&token=11d3c6f7-642f-4d71-ba38-46448f984638"
     },
     {
-        "id": 2,
+        "id": 7,
         "idCategoria": "decoracion",
-        "nombre": "Sofá",
+        "nombre": "Floreros",
         "modelo": "'Jarrones hermanos'",
         "precio": 35000,
         "stock": 5,
-        "img": "decoration.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/floreros.png?alt=media&token=3a401c9f-10dd-495f-8cc5-b23e7eb4ff6e"
     },
     {
-        "id": 1,
+        "id": 8,
         "idCategoria": "sillones",
         "nombre": "Sillón",
         "modelo": "'La comodidad'",
         "precio": 35000,
         "stock": 6,
-        "img": "siSuave.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/relaxrosa.png?alt=media&token=f7458c0a-b24e-42b6-b828-a9f52ae7847c"
     },
     {
-        "id": 2,
+        "id": 9,
         "idCategoria": "sofas",
         "nombre": "Sofá",
         "modelo": "'El gran capitán'",
         "precio": 35000,
         "stock": 5,
-        "img": "soRojo.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/si_rojo.png?alt=media&token=fabe53c7-0b83-4fd7-9d5b-3ae3b2a4599a"
     },
     {
-        "id": 1,
+        "id": 10,
         "idCategoria": "sillones",
         "nombre": "Sillón",
-        "modelo": "'Frutilla suave'",
+        "modelo": "'Negro como la noche'",
         "precio": 35000,
         "stock": 5,
-        "img": "siRosa.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/sinegro.png?alt=media&token=14cb0de7-c6b9-44f1-8bae-0a2132ffca76"
     },
     {
-        "id": 3,
+        "id": 11,
         "idCategoria": "decoracion",
         "nombre": "Set",
-        "modelo": "'Deco de la hermosa India'",
+        "modelo": "'Deco India'",
         "precio": 35000,
         "stock": 5,
-        "img": "colorful.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/colores.png?alt=media&token=289a66c5-58a6-44a8-93fd-a6c7277e9db6"
     },
     {
-        "id": 1,
+        "id": 12,
         "idCategoria": "sillones",
         "nombre": "Sillón",
         "modelo": "'Mi pequeño rosita'",
         "precio": 35000,
-        "stock": 5,
-        "img": "siRosaviejo.jpg"
+        "stock": 2,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/salmon.png?alt=media&token=2fa03872-3d82-4c0d-add8-fab7da487287"
     },
     {
-        "id": 3,
+        "id": 13,
         "idCategoria": "decoracion",
         "nombre": "Pillows",
         "modelo": "'Perfecta combinación'",
         "precio": 35000,
-        "stock": 5,
-        "img": "pillows.jpg"
+        "stock": 4,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/pillow.png?alt=media&token=0cafd226-c279-4808-bc68-bb11a1c9ba8b"
     },
     {
-        "id": 2,
+        "id": 14,
         "idCategoria": "sillones",
         "nombre": "Sillón",
         "modelo": "'Para tomar el té'",
         "precio": 35000,
         "stock": 5,
-        "img": "siObero.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/siObero.png?alt=media&token=c9a76daf-7826-40d7-b963-b2ac2391fa0c"
     },
     {
-        "id": 3,
+        "id": 15,
         "idCategoria": "decoracion",
         "nombre": "Almohadón",
-        "modelo": "'No molestar, clarito no?'",
+        "modelo": "'Clarito no?'",
         "precio": 35000,
-        "stock": 5,
-        "img": "donot.jpg"
+        "stock": 6,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/almohadon.png?alt=media&token=e6abad35-0031-4aaa-aa42-14bd71d987ef"
     },
     {
-        "id": 1,
-        "idCategoria": "sillones",
-        "nombre": "Sillón",
-        "modelo": "'Relax.. sólo relax'",
+        "id": 16,
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'Al parque'",
         "precio": 35000,
-        "stock": 5,
-        "img": "siGris.jpg"
+        "stock": 4,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/soraro.png?alt=media&token=bd87bb8c-60bf-48a4-97c1-75923bc0cb68"
     },
     {
-        "id": 3,
-        "idCategoria": "decoracion",
-        "nombre": "Girasol",
-        "modelo": "'Rayando el sol..'",
-        "precio": 35000,
-        "stock": 5,
-        "img": "flor.jpg"
-    },
-    {
-        "id": 1,
+        "id": 17,
         "idCategoria": "sofas",
         "nombre": "Sofá",
         "modelo": "'Te armo el living'",
         "precio": 35000,
         "stock": 5,
-        "img": "soAlmohadones.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/retazo.png?alt=media&token=ee24e17e-9ea0-48f1-9795-5938737e817d"
+    },
+    {
+        "id": 18,
+        "idCategoria": "decoracion",
+        "nombre": "Florero",
+        "modelo": "'Rayando el sol'",
+        "precio": 35000,
+        "stock": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/girasol.png?alt=media&token=790a272c-7a42-4437-86c4-b50c96fa5cc1"
+    },
+    {
+        "id": 19,
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'Redondo redondo'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/redondoceleste.png?alt=media&token=adff421e-ca41-45b9-a229-bdece725babd"
+    },
+    {
+        "id": 20,
+        "idCategoria": "decoracion",
+        "nombre": "Adorno",
+        "modelo": "'Tentación'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/manza.png?alt=media&token=220cd80c-65b0-428e-bd04-ad38278085c7"
+    },
+    {
+        "id": 21,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Bomba Azul'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/bolazul.png?alt=media&token=bfa10526-5769-4e76-8504-7b7b851b0a48"
+    },
+    {
+        "id": 22,
+        "idCategoria": "sillones",
+        "nombre": "Banqueta",
+        "modelo": "'Amor por los flamencos'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/flamencos.png?alt=media&token=2a4551be-53f3-4663-926d-4b0e1e669a46"
+    },
+    {
+        "id": 23,
+        "idCategoria": "sofas",
+        "nombre": "Sofá para la pile",
+        "modelo": "'Blanco natural'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/blancoplaya.png?alt=media&token=5143faeb-874b-437f-a56f-b9ef7ce065f8"
+    },
+    {
+        "id": 24,
+        "idCategoria": "decoracion",
+        "nombre": "Adorno",
+        "modelo": "'El cosito marrón'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/adornomarron.png?alt=media&token=83bfe7a4-28be-429d-a553-fe3dc833ad56"
+    },
+    {
+        "id": 25,
+        "idCategoria": "decoracion",
+        "nombre": "Macetitas",
+        "modelo": "'Puras blancas'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/blancos.png?alt=media&token=0d839f15-5e34-4b48-853e-e4be186fa5c6"
+    },
+    {
+        "id": 26,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Dorado y blanco'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/bombitas.png?alt=media&token=47f367bd-71d9-48f3-8004-c02787ba1c48"
+    },
+    {
+        "id": 27,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'La mesa azulina'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/centromesa.png?alt=media&token=69100928-2c43-48fe-ae56-122ddeee6f2b"
+    },
+    {
+        "id": 28,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Del Rey'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/delrey.png?alt=media&token=8ab23429-af3a-4324-a543-1eb17a4fd10c"
+    },
+    {
+        "id": 29,
+        "idCategoria": "sofas",
+        "nombre": "Sofá del parque",
+        "modelo": "'Frutas de estación'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/frutas.png?alt=media&token=64d39bea-4f11-4355-a7e0-f4d0b8a1568e"
+    },
+    {
+        "id": 30,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'La vela blanca'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/centrovela.png?alt=media&token=0f7f83c2-398b-459b-bb62-89b99b0519f1"
+    },
+    {
+        "id": 31,
+        "idCategoria": "sillones",
+        "nombre": "Full color",
+        "modelo": "'El alegre de la casa'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/silloncolorazo.png?alt=media&token=4486dac3-513f-4bdd-a521-9110284e5e9a"
+    },
+    {
+        "id": 32,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Lluvia de estrellas'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/cortinaestrellas.png?alt=media&token=6ba9bf7d-9972-4472-8434-ca41ec77a1b6"
+    },
+    {
+        "id": 33,
+        "idCategoria": "sillones",
+        "nombre": "Sillón simple",
+        "modelo": "'Ideal para leer'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/simanta.png?alt=media&token=0743fe8f-bf2e-4043-8e42-86fd9f41cd5c"
+    },
+    {
+        "id": 34,
+        "idCategoria": "decoracion",
+        "nombre": "Floreros",
+        "modelo": "'Lavanda'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/lavanda.png?alt=media&token=fed71362-ad1f-4ed4-9de5-508f5abf14e2"
+    },
+    {
+        "id": 35,
+        "idCategoria": "sofas",
+        "nombre": "Sofá neutro",
+        "modelo": "'Realza tus colores'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/naranja.png?alt=media&token=f37183e4-a985-42d8-8158-1b2c7afdb972"
+    },
+    {
+        "id": 36,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Dorado que enamora'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/dorada.png?alt=media&token=97de40cc-3534-410f-a736-89b0b76b78b8"
+    },
+    {
+        "id": 37,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Estrella que guía'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/estrella.png?alt=media&token=adf90a2a-da9d-4bea-bd1a-a8e15fa91823"
+    },
+    {
+        "id": 38,
+        "idCategoria": "sofas",
+        "nombre": "Sofá firme",
+        "modelo": "'Verde fuerte'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/soverde.png?alt=media&token=b093cdea-c4ff-4957-92b3-323183e18f65"
+    },
+    {
+        "id": 39,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Velas hechas con amor'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/velas.png?alt=media&token=a9eb87db-e00c-48e8-8652-761d0420b275"
+    },
+    {
+        "id": 40,
+        "idCategoria": "decoracion",
+        "nombre": "Almohadones",
+        "modelo": "'Trío intenso'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/trio.png?alt=media&token=5747194c-9493-4cbc-b5ce-09e71129b702"
+    },
+    {
+        "id": 41,
+        "idCategoria": "sofas",
+        "nombre": "Sofá sencillo",
+        "modelo": "'Gris clarito'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/soGris.png?alt=media&token=36bc42b5-fe4b-4ad0-bff1-95c68b0dbbd0"
+    },
+    {
+        "id": 42,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Tiernos personajes'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/munino.png?alt=media&token=7a4abe4b-3820-4e0b-9f97-f5d95bb89de8"
+    },
+    {
+        "id": 43,
+        "idCategoria": "sofas",
+        "nombre": "Sofá señorial",
+        "modelo": "'Soft classic'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/soft.png?alt=media&token=faee51f0-4fd0-4cc9-a516-06e2e8223ef5"
+    },
+    {
+        "id": 44,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Pinos de colores'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/setpinos.png?alt=media&token=fe892dc8-f4dd-4152-b2ad-76b3ef19aed4"
+    },
+    {
+        "id": 45,
+        "idCategoria": "decoracion",
+        "nombre": "Combinación",
+        "modelo": "'Rojo y Negro'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/royne.png?alt=media&token=8898cedc-727f-4162-9cfc-0179a9451deb"
+    },
+    {
+        "id": 46,
+        "idCategoria": "sofas",
+        "nombre": "Sofá",
+        "modelo": "'Ideal para colorear'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/gris.png?alt=media&token=eb95b067-51f0-4320-bb17-8a106b1b9cd5"
+    },
+    {
+        "id": 47,
+        "idCategoria": "sofas",
+        "nombre": "Sofá sublime",
+        "modelo": "'La curva ideal'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/sofanaranja.png?alt=media&token=8c566d5f-37e9-4484-962a-c2867d725ebf"
+    },
+    {
+        "id": 48,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Relax.. sólo relax'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/sillonsuave.png?alt=media&token=056d8684-d983-4129-b1cd-09ff0d02d10b"
+    },
+    {
+        "id": 49,
+        "idCategoria": "decoracion",
+        "nombre": "Almohadones",
+        "modelo": "'Set de moños'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/almohadones.png?alt=media&token=2881d408-ce4a-482b-a810-24b6eb79d7ed"
+    },
+    {
+        "id": 50,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Esperando a Noel'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/colgante.png?alt=media&token=2734706f-71a9-4aea-b73d-e3f9840ede2c"
+    },
+    {
+        "id": 51,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Bolas vibrantes'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/setbolas.png?alt=media&token=58ee8594-db3f-43eb-abc0-09e31a2fb633"
+    },
+    {
+        "id": 52,
+        "idCategoria": "sillones",
+        "nombre": "Set de Puffs",
+        "modelo": "'Puffs divertidos'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/setpuffs.png?alt=media&token=cdff7e6e-fa93-41b2-bdf8-7047a9f3ee11"
+    },
+    {
+        "id": 53,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Dulce muñequito'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/nieve.png?alt=media&token=2b3257ea-2e93-4abc-be4e-5821c05999bc"
+    },
+    {
+        "id": 54,
+        "idCategoria": "sillones",
+        "nombre": "Sillón",
+        "modelo": "'Juntos a la par'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/juntos.png?alt=media&token=82f5d5e7-12e6-4f72-8293-bc37c166b361"
+    },
+    {
+        "id": 55,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'El nacimiento'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/pesebre.png?alt=media&token=641ad24c-1e5f-4a9b-8034-b3f376825f06"
+    },
+    {
+        "id": 56,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Que lindo Noel!!'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/papanoel.png?alt=media&token=d25f8066-5420-41b5-837a-28b1ea4b2708"
+    },
+    {
+        "id": 57,
+        "idCategoria": "decoracion",
+        "nombre": "Deco navideña",
+        "modelo": "'Los tiernos nievecitos'",
+        "precio": 35000,
+        "stock": 5,
+        "detalle": "Tiernos muñequitos de nieve para decorar el living. De tamaño mediano.",
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/nievecitos.png?alt=media&token=d8235b5b-7f9e-4d5b-82b6-297acc165d4a"
+    },
+    {
+        "id": 58,
+        "idCategoria": "sillones",
+        "nombre": "Amarillo pastel",
+        "modelo": "'Sol suave'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/amarillo.png?alt=media&token=f4f24fa1-62e0-468b-b6a0-fb6249e067e5"
+    },
+    {
+        "id": 59,
+        "idCategoria": "sofas",
+        "nombre": "De la ostia",
+        "modelo": "'Ostia de colores'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/ostiacolores.png?alt=media&token=a2475ea8-6d9e-49b6-adc2-a12570facb39"
+    },
+    {
+        "id": 60,
+        "idCategoria": "sillones",
+        "nombre": "Caracol",
+        "modelo": "'Azul del mar'", 
+        "precio": 30000,
+        "stock": 6,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/azulmar.png?alt=media&token=9a48abe5-0309-430b-8a22-bba8609954a5"
+    },
+    {
+        "id": 61,
+        "idCategoria": "sofas",
+        "nombre": "Sofá redondo",
+        "modelo": "'Redondito serio'",
+        "precio": 35000,
+        "stock": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/nube-lila.appspot.com/o/redondito.png?alt=media&token=b598dee3-96d9-4e3d-a596-9386d1271a3d"
     }
-    
+
+
 
 ]

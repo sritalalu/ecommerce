@@ -28,22 +28,8 @@ const Dropdown = () => {
                     </ul>
                     </div>
                     </li>
-                    {/*<div className="dropdown">
-                        <button className="btn dropdown-toggle btn_drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Blog
-                        </button>
-                    <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Tips y Estilos</a></li>
-                        <li><hr className="linea_div" /></li>
-                        <li><a className="dropdown-item" href="#">Nosotros</a></li>
-                    </ul>
-                    </div>*/}
-
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Contacto</a>
-                    </li>
-                    </ul>
-                </div>
+                </ul>
+            </div>
             
         </> 
     );

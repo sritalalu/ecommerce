@@ -1,15 +1,11 @@
 
-body{
-    background-image: url(../../public/img/fondos.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}   
 
 @media screen and (max-width: 768px) {
-    body{
-        background-size: cover;
+
+    .portada{
+        height: max-content;
+        display: flex;
+        padding: 50px 0;
     }
 
     .invert {
@@ -25,14 +21,59 @@ body{
     .container-fluid{
         gap: 10px;
     }
+
+    
 }
 
+
+/*Componente Item*/
 .cardProducto{
     width: 18rem;
-    margin: 4px;
+    margin: 8px;
+    
 }
 
-.detailProduct{
-    max-width: 600px;
-    margin-top: 20px;
+/*Item Detail*/
+
+.card_fila{
+    display: flex;
+    flex-direction: row;
+}
+
+/*ItemListContainer*/
+.cardProductos{
+    margin: 8px;
+    align-items:center;
+    justify-content: center;
+}
+
+.boton_cart{
+    border: none;
+    background-color: white;
+    width: 3px;
+}
+
+.img_detail{
+    width: 2.6rem;
+    margin-left: 1.5rem;
+    
+}
+
+.boton_contador{
+    width: 1.2rem;
+    margin: 5px;
+    border-color: #D3B5E5;
+}
+
+.boton_agregar{
+    background-color: #D3B5E5;
+    border-color: #D3B5E5;
+}
+
+.darkMode{
+    background-image: url(../../public/img/dark.jpg);
+}
+
+.nube_promo{
+    background-color: transparent !important;
 }
