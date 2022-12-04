@@ -9,8 +9,7 @@ const CartWidget = () => {
     return (
         <>
             <Link to="/Cart" >
-                <p> {getItemQuantity()} </p>
-                <button className='logo_cart'> <img src="../img/logo-cart.png" alt=""/></button>
+                <button className="logo_cart"><img src="../img/logo-cart.png" alt=""/>{ getItemQuantity() >= 1 && <span className="cant_cart">{getItemQuantity()}</span>}</button>
             </Link>
         </>
     );

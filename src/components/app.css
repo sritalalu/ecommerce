@@ -2,12 +2,6 @@
 
 @media screen and (max-width: 768px) {
 
-    .portada{
-        height: max-content;
-        display: flex;
-        padding: 50px 0;
-    }
-
     .invert {
         display: flex;
         flex-direction: row-reverse;
@@ -20,8 +14,11 @@
 
     .container-fluid{
         gap: 10px;
-    }
+    } 
 
+    .photo{
+        width: unset;
+    }
     
 }
 
@@ -45,6 +42,12 @@
     margin: 8px;
     align-items:center;
     justify-content: center;
+}
+
+.cardProducto:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 3px 3px rgb(224, 135, 202);
+    transition: transform .5s linear;
 }
 
 .boton_cart{
@@ -77,3 +80,113 @@
 .nube_promo{
     background-color: transparent !important;
 }
+
+.carousel-inner{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 26rem;
+    transition: 1s ease-in-out;
+    margin-top: -70px;
+
+}
+
+.img_banner{
+    height: max-content;
+    margin-top: -20px;
+}
+
+.portada{
+    font-family:cursive;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: revert;
+    color: #FFD4DB;
+}
+
+.ver_carro{
+    background-color: #D3B5E5; 
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.ver_carro:hover{
+    background-color: #FFD4DB;
+}
+
+.ver_producto,
+.ver_tienda{
+    background-color: #D3B5E5; 
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.container_boton{
+    text-align: center;
+    
+}
+
+#agregar,
+.nav_ver,
+.ver_tienda,
+.ver_producto,
+.btn_eliminar,
+.btn_limpiar,
+.ver_carro,
+.vacio,
+.card_tres{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.card_tres:hover{
+    color: black;
+}
+
+.nav_ver:hover,
+.ver_tienda:hover{
+    color:#FFD4DB;
+}
+#agregar:hover{
+    color:#FFD4DB;
+}
+
+#agregar{
+    margin-right: 4px;
+}
+
+.contenedor_contador{
+    margin-top: 5px;
+}
+
+.card{
+    margin-top: 8px;
+}
+
+
+.btn_limpiar,
+.btn_eliminar{
+    background-color: #FFD4DB;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.btn_limpiar:hover,
+.btn_eliminar:hover{
+    background-color: rgb(216, 25, 25);
+}
+
+.contenedor_vacio{
+    text-align: center;
+}
+

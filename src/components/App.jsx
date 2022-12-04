@@ -1,6 +1,10 @@
 //import React from 'react'; ESTA PRIMERA LINEA NO ES NECESARIA SI QUIERO PUEDO BORRARLA
 import './app.css';
+import 'react-toastify/dist/ReactToastify.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { ToastContainer } from 'react-toastify';
+
+
 //Context
 import { DarkModeProvider } from '../context/darkMode';
 import { CartContextProvider } from '../context/CartContext';
@@ -10,7 +14,6 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import Inicio from './Inicio/Inicio';
-import Banner from './Banner/Banner';
 import Checkout from './Checkout/Checkout'
 
 const App = () => {
@@ -21,14 +24,15 @@ const App = () => {
           <CartContextProvider>
           <Navbar/>
             <Routes>
-              <Route path='/Banner' element={<Banner/>}/>
               <Route path='/' element={<Inicio/>}/>
               <Route path='/productos' element={<ItemListContainer/>}/>
               <Route path='/product/:id' element={<ItemDetailContainer/>}/>
               <Route path='/cart' element={<Cart/>}/>
               <Route path='/category/:category' element={<ItemListContainer/>}/>
               <Route path='/checkout' element={<Checkout/>}/>
+              <Route path='/producto/*' element = { <h1>Producto no encontrado</h1> }  />
             </Routes>
+            <ToastContainer/>
           </CartContextProvider>
         </BrowserRouter>
       </DarkModeProvider>

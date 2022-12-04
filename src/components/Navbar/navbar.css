@@ -29,7 +29,7 @@
 .nav-edit p {
     font-weight: 800;
     width: 50px;
-    color:  red;
+    color: black;
 }
 
 .navbar .btn_responsive {
@@ -61,6 +61,15 @@
     background-color: #FFD4DB;
 }
 
+.cant_cart{
+    position: relative;
+    left: 13%;
+    color: #D3B5E5;
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+
 .logo_nube{
     width: 10rem;
     height: 7rem;
@@ -68,7 +77,7 @@
 }
 
 .dropdown-menu{
-    background-color: beige;
+    background-color: #FFD4DB;
     font-family: 'Josefin Sans';
     font-size: 1.2rem;
     border-radius: 9px;

@@ -12,8 +12,6 @@ const ItemDetail = ({producto}) => {
         addItem(producto, contador)
     } 
     return (
-        
-            <div className="mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src={producto.img} className="img-fluid center" alt="imagen_prod"/>
@@ -24,11 +22,10 @@ const ItemDetail = ({producto}) => {
                         <p className='card-text'>Modelo: {producto.modelo}</p> 
                         <p className='card-text'>Precio: ${producto.precio}</p>
                         <p className='card-text'>Stock: {producto.stock}</p>
-                        <ItemCount stock = {producto.stock} onAdd = {onAdd}/>     
+                        <ItemCount stock = {producto.stock} onAdd = {onAdd}/>    
                     </div>    
                     </div>
                 </div>
-            </div>
     
         )
 };

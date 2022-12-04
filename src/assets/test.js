@@ -1,4 +1,4 @@
-import { createProducto, getProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra } from "./firebase";
+import { cargarBDD, createProducto, getProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra } from "./firebase";
 /*
 const producto = {
     
@@ -17,12 +17,13 @@ const producto = {
 getProducto("LaT9LmVv5JIqrOuQrGdV").then(prod =>{
     prod.stock -= 3
     updateProducto("LaT9LmVv5JIqrOuQrGdV", prod).then(mensaje =>console.log(mensaje))
-})
+})*/
 
-deleteProducto("LaT9LmVv5JIqrOuQrGdV").then(mensaje=>console.log(mensaje))*/
+//deleteProducto("voihrk36lFW7yQmEecSl").then(mensaje=>console.log(mensaje))
 
-const cliente ={
-    nombre: "Pedro",
+
+/*const cliente ={
+    nombre: "Juan Pedro",
     apellido: "Cruz",
     email: "pedro@cruz.com",
     dni: 25585141,
@@ -30,7 +31,9 @@ const cliente ={
 }
 
 //creo orden de compra
-//createOrdenCompra(cliente, 15000, Date.now()).then(orden => console.log(orden))
+createOrdenCompra(cliente, 25000, Date.now()).then(orden => console.log(orden))
 
 //CONSULTO ORDEN DE COMPRA
-getOrdenCompra("3svidtXHsIH1bj5qgsUm").then(orden => console.log(orden))
+//getOrdenCompra("3svidtXHsIH1bj5qgsUm").then(orden => console.log(orden))
+
+cargarBDD()*/
