@@ -2,30 +2,33 @@ import { Link } from "react-router-dom";
 const Inicio = () => {
     return (
         <>
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            
+            <div id="carouselExampleCaptions" className="carousel slide carrusel_contenedor" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={1} aria-label="Slide 2" />
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={2} aria-label="Slide 3" />
                 </div>
-                <div className="carousel-inner">
+                <div>
+                    <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <img src="./img/lila.jpg" className="d-block w-100" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                    <h5 className="portada">DISEÑOS EXCLUSIVOS</h5>
-                </div>
-                </div>
-                <div className="carousel-item">
-                    <img src="./img/pastel.jpg" className="d-block w-100" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                    <h5 className="portada">NUEVAS TENDENCIAS</h5>
-                </div>
-                </div>
-                <div className="carousel-item">
-                    <img src="./img/navidad.jpg" className="d-block w-100" alt="..." />
-                <div className="carousel-caption d-none d-md-block">
-                    <h5 className="portada">DECORACIÓN NAVIDEÑA</h5>
-                </div>
+                        <img src="./img/completo.jpg" className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5 className="portada">DISEÑOS EXCLUSIVOS</h5>
+                        </div>
+                    </div>
+                    <div className="carousel-item carrusel_contenedor">
+                        <img src="./img/vioyve.jpg" className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5 className="portada">NUEVAS TENDENCIAS</h5>
+                        </div>
+                    </div>
+                    <div className="carousel-item carrusel_contenedor">
+                        <img src="./img/navideño.jpg" className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5 className="portada">DECORACIÓN NAVIDEÑA</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -70,6 +73,7 @@ const Inicio = () => {
                 
             </div>
         </div>
+        
         </>
     );
 }

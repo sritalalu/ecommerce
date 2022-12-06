@@ -19,9 +19,13 @@
     .photo{
         width: unset;
     }
-    
-}
 
+    .portada{
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
 
 /*Componente Item*/
 .cardProducto{
@@ -83,26 +87,12 @@
 
 .carousel-inner{
     width: 100%;
-    height: 50%;
     margin: 0 auto;
 }
 
-.carousel-item{
-    width: 100%;
-    height: 26rem;
-    transition: 1s ease-in-out;
-    margin-top: -70px;
-
-}
-
-.img_banner{
-    height: max-content;
-    margin-top: -20px;
-}
-
 .portada{
-    font-family:cursive;
-    font-size: 3.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
     font-weight: 800;
     text-align: center;
     margin: revert;
@@ -189,4 +179,5 @@
 .contenedor_vacio{
     text-align: center;
 }
+
 
