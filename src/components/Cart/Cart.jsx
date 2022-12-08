@@ -6,6 +6,8 @@ const Cart = () => {
 
     return (
         <>
+        <div className='contenedor-cart' >
+
             { cart.length === 0 ? 
             <div className='contenedor_vacio'>
                 <p className='vacio'>Tu carrito está vacío!!!</p>
@@ -13,12 +15,12 @@ const Cart = () => {
             </div>  
             :
             <div>
-                {cart.map((prod, indice) => <div className="card mb-3" key={indice} style={{maxWidth: '600px'}}>
-                <div className="row g-0">
-                    <div className="col-md-4">
+                {cart.map((prod, indice) => <div className="card" key={indice} >
+                <div className="padre">
+                    <div className="contenedor-imagen">
                         <img src={prod.img} className="img-fluid rounded-start" alt="..." />
                     </div>
-                <div className="col-md-8">
+                <div className="">
                     <div className="card-body">
                         <h5 className="card-title">{prod.nombre}</h5>
                         <p className="card-text">Cantidad: { prod.cant }</p>
@@ -30,15 +32,18 @@ const Cart = () => {
                 </div>
                 </div>
                 )}
-            <div>
-                <p>Total: ${totalPrice()}</p>
-                <button className='btn btn_limpiar' onClick={emptyCart} >Limpiar carrito</button>
-                <Link to='/checkout'>
-                    <button className='btn ver_carro'>Finalizar compra</button>
-                </Link>
+            <div className='contenedor-final-cart'>
+                <p className='price_total'>Total: ${totalPrice()}</p>
+                <div className='botones-carrito'>
+                    <button className='btn btn_limpiar' onClick={emptyCart} >Limpiar carrito</button>
+                    <Link to='/checkout'>
+                        <button className='btn ver_carro'>Finalizar compra</button>
+                    </Link>
+                </div>
             </div>
             </div> 
         }  
+        </div>
         </>
     );
 

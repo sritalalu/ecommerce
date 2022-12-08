@@ -12,11 +12,11 @@ const ItemDetail = ({producto}) => {
         addItem(producto, contador)
     } 
     return (
-                <div className="row g-0">
-                    <div className="col-md-4">
+                <div className="padre">
+                    <div className="contenedor-imagen">
                         <img src={producto.img} className="img-fluid center" alt="imagen_prod"/>
                     </div>
-                    <div className="col-md-8 card_fila">
+                    <div className="card_fila">
                     <div className="card-body">
                         <h5 className='card-title'>{producto.nombre}</h5>
                         <p className='card-text'>Modelo: {producto.modelo}</p> 

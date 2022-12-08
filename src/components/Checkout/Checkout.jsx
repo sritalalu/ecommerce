@@ -46,11 +46,11 @@ const Checkout = () => {
             <form onSubmit={consultarFormulario} ref={datosForm}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre</label>
-                    <input type="text" className="form-control" name="nombre"/>
+                    <input type="text" className="form-control" name="nombre" required />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="apellido" className="form-label">Apellido</label>
-                    <input type="text" className="form-control" name="apellido"/>
+                    <input type="text" className="form-control" name="apellido" required/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email</label>

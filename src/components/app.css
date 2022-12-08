@@ -139,6 +139,11 @@
     text-align: center;
 }
 
+.price_total{
+    font-size: 1.5rem;
+    font-weight: 700
+}
+
 .card_tres:hover{
     color: black;
 }
@@ -153,6 +158,27 @@
 
 #agregar{
     margin-right: 4px;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen {
+    width: 50%;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+}
+
+.contenedor-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor_contador{
@@ -180,4 +206,17 @@
     text-align: center;
 }
 
+.contenedor--final-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 35px;
+}
+
+.botones-carrito{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-self: center;
+}
 
